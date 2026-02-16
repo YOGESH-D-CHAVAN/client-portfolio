@@ -45,24 +45,13 @@ const experiences = [
     icon: FaGraduationCap,
     description: "Chandigarh Group of Colleges, Landran",
     achievements: [
-        "CGPA: 8.2"
+        "CGPA: 8.2",
+        "Active member of the Entrepreneurship & Leadership Cell, championing student-led startups and organizing technical workshops",
+        "Diversified technical skill set by mastering Full Stack Development, Cloud Computing, and Algorithmic Problem Solving beyond the curriculum"
     ],
     tech: ["DSA", "Web Dev", "OS", "DBMS"]
   },
-  {
-    id: 4,
-    title: "Higher Secondary (Non-Medical)",
-    subtitle: "Science Stream",
-    role: "Student",
-    period: "June 2020",
-    type: "Education",
-    icon: FaGraduationCap,
-    description: "G.S.S.S., Raipur Rani",
-    achievements: [
-        "CGPA: 9.1"
-    ],
-     tech: ["Physics", "Chemistry", "Maths"]
-  }
+
 ];
 
 const TimelineCard = ({ exp, index }) => {
