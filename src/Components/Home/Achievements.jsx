@@ -37,7 +37,7 @@ const achievements = [
 ];
 
 const AchievementCard = ({ achievement, index }) => {
-
+  const Icon = achievement.icon;
   
   return (
     <motion.div
